@@ -62,6 +62,17 @@ footer {
     text-align: left;
 }
 
+.poem-image {
+    max-width: 150px;
+    margin-bottom: 40px;
+    opacity: 0.8;
+}
+
+.poem-text {
+    border-left: 2px solid #000;
+    padding-left: 30px;
+}
+
 .poem p {
     font-size: 1.3rem;
     line-height: 2;
