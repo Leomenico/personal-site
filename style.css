@@ -60,17 +60,21 @@ footer {
 .poem {
     max-width: 600px;
     text-align: left;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
 }
 
 .poem-image {
     max-width: 150px;
-    margin-bottom: 40px;
+    flex-shrink: 0;
     opacity: 0.8;
 }
 
 .poem-text {
     border-left: 2px solid #000;
     padding-left: 30px;
+    flex: 1;
 }
 
 .poem p {
